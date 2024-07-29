@@ -1,2 +1,1 @@
-# danjoo-school
-school.danjoo.ir
+## school

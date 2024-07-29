@@ -1,0 +1,9 @@
+---
+title: "درباره"
+layout: page-sidebar
+permalink: "/about.html"
+image: "/assets/images/screenshot.jpg"
+comments: true
+---
+
+طراحی توسط دانجو
