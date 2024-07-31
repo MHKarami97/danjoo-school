@@ -38,9 +38,6 @@ description: "مدرسه آنلاین"
                 {% endfor %}
                 </span>                   
         </small>
-        <small class="text-muted">
-            {{ latest_post.date | jdate: '%d %b، %Y' }}
-        </small>
     </div>
     </div>
     </div>
@@ -69,9 +66,6 @@ description: "مدرسه آنلاین"
                         {% endfor %}
                         </span>                   
                     </small>
-                    <small class="text-muted">
-                        {{ second_post.date | jdate: '%Y' }}
-                    </small>
                 </div>
             </div>
         
@@ -96,9 +90,6 @@ description: "مدرسه آنلاین"
                         {% endfor %}
                         </span>                   
                     </small>
-                    <small class="text-muted">
-                        {{ third_post.date | jdate: '%Y/%-m/%-d' }}
-                    </small>
                 </div>
             </div>
         
@@ -122,9 +113,6 @@ description: "مدرسه آنلاین"
                         <a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
                         {% endfor %}
                         </span>                   
-                    </small>
-                    <small class="text-muted">
-                        {{ fourth_post.date | jdate: '%Y/%-m/%-d' }}
                     </small>
                 </div>
             </div>
