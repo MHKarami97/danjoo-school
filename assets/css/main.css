@@ -48,8 +48,6 @@
 *::after {
   box-sizing: border-box; }
 
-@import "../fonts/fonts-iransans.css";
-
 html {
   font-family: IRANSans;
   direction: rtl;
