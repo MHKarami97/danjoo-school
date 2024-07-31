@@ -16,8 +16,17 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-paginate
-  - jekyll-seo-tag
-  
+  - jekyll-archives 
+ 
+jekyll-archives:
+  enabled: 
+    - categories
+    - tags
+  layout: default
+  permalinks:
+    tag: '/tag/:name/'
+    category: '/category/:name/'
+    
 authors:
     sal:
       name:           mhk
