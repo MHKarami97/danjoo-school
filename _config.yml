@@ -19,13 +19,13 @@ plugins:
   - jekyll-archives 
  
 jekyll-archives:
-  enabled: 
+  enabled:
     - categories
     - tags
   layout: default
   permalinks:
-    tag: '/tag/:name/'
     category: '/category/:name/'
+    tag: '/tag/:name/'
     
 authors:
     sal:
